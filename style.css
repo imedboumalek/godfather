@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(49, 49, 49);
+    margin: 0rem;
+    
+
+}
+header {
+    background-color: rgb(20, 20, 20);
+    width: 100%;
+    display: block;
+
+}
+@font-face{
+    font-family: Godfather;
+    src: url(fonts\TheGodfather-v2);
+    font-style: bold;
+}
+#title {
+    font-family: "Godfather",Arial, Helvetica, sans-serif;
+}
+#rose {
+    height: 90px;
+    width: 55px;
+    padding-left: 0.8cm;
+}
