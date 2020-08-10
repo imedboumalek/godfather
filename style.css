@@ -14,7 +14,7 @@ h1,
 h2,
 h3 {
   font-family: "montserrat",sans-serif;
-  color:rgb(235, 203, 122);
+  color: #C7A659;
 }
 
 p {
@@ -30,7 +30,7 @@ header {
 
 .inner-header {
   height: 100%;
-  width: 70%;
+  width: 1300px;
   display: block;
   margin: 0 auto;
 }
@@ -61,11 +61,11 @@ header {
 
 .inner-header a {
   font-size: 25px;
-  color: red;
+  color: white;
   float: right;
   position: relative;
   top: 20%;
-  border: 4px red solid;
+  border: 4px white solid;
   padding: 8px;
   border-radius: 12px;
 }
@@ -126,8 +126,7 @@ img {
 }
 
 .detail-container h2 {
-  font-size: 40px;
-  text-decoration: underline;
+  font-size: 27px;
   font-weight: 550;
 }
 
@@ -185,7 +184,6 @@ footer {
   bottom:100px;
 }
 
-/* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
 }
