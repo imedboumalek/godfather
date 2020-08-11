@@ -3,47 +3,40 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Home</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="responsive.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://kit.fontawesome.com/f895649843.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <header>
-    <div class="inner-header">
-      <div class="logo-container">
-        <img id="rose" src="images\redRose.svg" alt="redRose" />
-        <h1>The Godfather</h1>
-      </div>
-      <a
-        id="title"
-        href="https://www.netflix.com/title/60011152"
-        target="_blank"
-        >WATCH NOW</a
-      >
-    </div>
+    <img class="rose" src="images\redRose.svg" alt="redRose" />
+    <h1 class="title">The Godfather</h1>
+    <a class="watch-now" href="https://www.netflix.com/title/60011152" target="_blank">WATCH NOW</a>
+    <a class="play-button" href="https://www.netflix.com/title/60011152" target="_blank"><i
+        class="fas fa-play-circle"></i></a>
+
   </header>
   <div class="content">
-    <div class="poster">
-      <img id="poster-border" src="images/poster.jpg" alt="poster" />
-    </div>
+    <img class="poster" src="images/poster.jpg" alt="poster" />
     <div class="detail-container">
       <h2>Details:</h2>
       <ul type="none">
-        <li><span class="details-bold">Release date: </span>March 14, 1972</li>
+        <li><span>Release date: </span>March 14, 1972</li>
         <li>
-          <span class="details-bold">Directed by: </span>Francis Ford Coppola
+          <span>Directed by: </span>Francis Ford Coppola
         </li>
-        <li><span class="details-bold">Running time: </span>3 hours</li>
+        <li><span>Runtime: </span>3 hours</li>
         <li>
-          <span class="details-bold">Staring: </span> Marlon Brando, Al Pacino,
+          <span>Staring: </span> Marlon Brando, Al Pacino,
           James Caan, Richard Castellano, Robert Duvall, Sterling Hayden, John
           Marley, Richard Conte, Diane Keaton
         </li>
-        <li><span class="details-bold">Country: </span>United States</li>
-        <li><span class="details-bold">Rating: </span>9.2/10</li>
+        <li><span>Country: </span>United States</li>
+        <li><span>Rating: </span>9.2/10</li>
       </ul>
       <h2>Synopsis:</h2>
-      <p>
+      <p class="justify">
         Marlon Brando and Al Pacino star as Vito Corleone and his youngest
         son, Michael, respectively. It is the late 1940s in New York and
         Corleone is, in the parlance of organized crime, a "godfather" or "don,"
@@ -71,21 +64,24 @@
         the new don, he leads the family to a new era of prosperity, then
         launches a campaign of murderous revenge against those who once tried to
         wipe out the Corleones, consolidating his family's power and completing
-        his own moral downfall. 
+        his own moral downfall.
       </p>
     </div>
   </div>
   <footer>
     <img id="imed" src="images/imed.jpeg" alt="the dev" />
-    <div id="about-the-dev">
+    <div class="about-me">
       <h3>About the developer:</h3>
       <p>
-        My name is Imed Boumalek, I'm a computer science student and a tech enthusiast. I'm currenty learning web development, so I decided to do this small project and chose this movie because it's one of my favorites :) 
+        My name is Imed Boumalek, I'm CS student and a tech enthusiast. I'm currenty learning web development, so I
+        decided to do this small project and chose this movie because it's my favorite :)
       </p>
     </div>
-    <a href="https://www.facebook.com/imed.boumalek" target="_blank" class="fa fa-facebook"></a>
-    <a href="https://www.twitter.com/imedboumalek" target="_blank" class="fa fa-twitter"></a>
-    <a href="https://www.instagram.com/imed.boumalek" target="_blank" class="fa fa-instagram"></a>
-    <a href="https://www.github.com/imedboumalek" target="_blank" class="fa fa-github"></a>
+    <div class="icons">
+      <a href="https://www.facebook.com/imed.boumalek" target="_blank" class="fa fa-facebook"></a>
+      <a href="https://www.twitter.com/imedboumalek" target="_blank" class="fa fa-twitter"></a>
+      <a href="https://www.instagram.com/imed.boumalek" target="_blank" class="fa fa-instagram"></a>
+      <a href="https://www.github.com/imedboumalek" target="_blank" class="fa fa-github"></a>
+    </div>
   </footer>
 </body>
