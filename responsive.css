@@ -24,6 +24,7 @@ h6 {
   font-family: "montserrat", sans-serif;
   color: #C7A659;
   text-align: center;
+  font-size: x-large;
 }
 
 
@@ -65,26 +66,19 @@ footer {
   .watch-now {
   display: none;
   }
-  .fa-play {
-   color: white;
-   font-size: 19px;
-   border: 2px white solid;
+  
+  .fa-play-circle {
+   font-size: 39px;
    border-radius: 50%;
-   padding: 8px;
    position: relative;
    top: 10px;
+   float: right;
   }
-  .fa-play:hover {
-  color: black;
+  .fa-play-circle:hover {
+  color: rgb(20, 20, 20);
   background-color: white;
-  }
-  .play-button {
-    position: relative;
-    display: table;
-    height: 100%;
-    float: right;
-    
-  }
+}
+  
   .title {
     display: inline-block;
     font-size: 45px;
@@ -115,7 +109,7 @@ footer {
     width: 100%;
   }
   .detail-container h2 {
-    font-size: 27px;
+    font-size: 29px;
   font-weight: 550;
   }
   li span {
@@ -123,6 +117,7 @@ footer {
   font-weight: 500;
   font-size: medium;
   color: rgb(189, 189, 189);
+  line-height: 1.35;
   }
   .justify {
     text-align: justify;
@@ -135,16 +130,17 @@ footer {
     margin:20px auto;    
   }
   .about-me {
-    padding: 2%;
+    padding: 0% 10%;
   }
   .icons {
-    width: 50%;
-    height: fit-content;
-    margin:10px auto;
+    width: fit-content;
+    height: 30px;
+    margin: 10px auto;
+
   }
 .fa {
-  width: 50px;
-  text-align: center;
+  width: 18px;
+  margin: 5px 15px;
   text-decoration: none;
   border-radius: 50%;
   color: white;
